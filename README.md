@@ -1,6 +1,6 @@
 # Chess-LLM
 
-> Developed as part of a course I taught to students on how to use React, Flask and FastMCP to create LLM applications
+> Developed as part of a course I taught on how to use React, Flask and the MCP Python SDK to create LLM applications
 
 Chess-LLM is an application that allows players to play against opponent's who think out loud. The chosen (and only supported) model is Gemini, using its generous free tier keys for testing.
 
@@ -11,7 +11,7 @@ Chess-LLM is an application that allows players to play against opponent's who t
 
 ## Tech Stack
 - **Frontend**: Written with React and Vite
-- **Backend**: Flask, FastMCP, and Postgres (only for persisting HTTP Sessions Cookies with API keys)
+- **Backend**: Flask, MCP Python SDK, and Postgres (only for persisting HTTP Sessions Cookies with API keys)
 - **Chess Engine**: Python 3.12
 
 ## How to Use
